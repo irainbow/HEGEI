@@ -1,0 +1,313 @@
+style/*---------------------------------------------------
+  Reset
+---------------------------------------------------*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*---------------------------------------------------
+  Styles
+---------------------------------------------------*/
+body{
+	background-image: url(images/campusmap1.jpg);
+	background-position: top 50px left 50px;
+	background-repeat: no-repeat;
+}
+
+div#wrapper
+{
+	margin: 0px auto;
+	width: 60%;
+	text-align:left;
+	padding: 2em;
+	background-color: hsla(180, 10%, 100%, .1);
+	box-shadow: 0px 2px 30px #fff;
+	}
+div#selectors_wrapper
+{
+	width:80%;
+	height: 210px;
+	margin:0px auto;
+	text-align:left;
+	padding:1em;
+	background-color:hsla(180, 10%, 100%, .1);
+	}
+
+
+body {
+	font-family:"Times New Roman", Times, serif;
+	font-size : 11pt;
+	background-color:#F2F2F2;
+	padding: 0em;
+	line-height: 170%;
+	
+
+
+}
+p 	{margin-bottom: 1.5em;
+	
+}
+p:last-of-type {margin-bottom: .5em}
+
+h1 {
+	font-family: futura, sans-serif;
+	font-size:200%;
+	padding:.1em;
+	line-height: 4em
+	vertical-align: middle;
+}
+
+h2 {
+	font-family: futura, sans-serif;
+	font-size:150%;
+	padding:.5em;
+}
+
+/* Give things with class="sidebar" some styling to make them look like a sidebar */
+
+nav {
+	width: 60%;
+	background-color: hsla(180, 10%, 100%, .1);	
+	margin: auto;
+
+}
+nav ul{
+	line-height: 1em;
+}
+nav li{
+	float: left;
+	margin-right: 2em;
+	background-color: hsla(70, 45%, 61%, 1);
+	padding: .3em;
+	border-radius: 5px;
+}
+nav li:first-of-type{
+	margin-right: 2em;
+	background-color: hsla(70, 45%, 61%, 0);
+	padding: .3em;
+	border-radius: 5px;
+}
+/**************
+LINKS NAV
+**************/
+		nav a:link {
+			text-transform: none;
+			color: black;
+		}
+		nav a:visited {
+			text-transform: none;
+			color: black;
+		}
+		nav a:hover {
+			color: white;
+		}
+		nav a:active {
+			text-transform: none;
+			color: white;
+}
+/* Give sidebar titles specical treatment */
+.sidebar .title {
+	font-weight: bold;
+	
+}
+
+header {
+	background: hsla(180, 10%, 100%, .4);
+	margin: 0;
+	height: 100;	
+}
+header .no_side{
+	background: hsla(180, 10%, 100%, .4);
+	margin: 0;
+	height: 100px;
+}
+
+img.logo {
+	height: 50px;
+	width: auto;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+img.small_logo {
+	height: 90px;
+	width: auto;
+	vertical-align: middle;
+	padding: 5px;
+}
+img.alignleft {
+	float:left; 
+	margin-top: 1em;
+	margin-right: 1em; 
+}
+.factbox {
+	margin-left: -1em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	border: 3px solid #336666; 
+	color: #336666; 
+	padding: 1em; 
+	width: 30em;
+}
+
+
+.factbox .title {
+	font-weight: bold;
+}
+
+a:link {color: #000000; text-decoration: none; }
+a:active {color: #000000; text-decoration: none; }
+a:visited {color: #000000; text-decoration: none; }
+a:hover {color: #003333; text-decoration: underline; }
+
+ul
+{
+    list-style-type: none;
+    line-height: 2em;
+}
+ol
+{
+   	margin-left: 0em;
+   	padding-left: 2em;
+    list-style-type: decimal;
+    line-height: 2em;
+}
+
+ol > li {
+	margin-top: 1em;
+}
+
+
+.content
+	{
+	padding:1em;
+	background-color: hsla(180, 10%, 100%, .4);	
+	}
+
+
+input.invalid {
+	background: #FCC;
+}
+
+.small_note
+	{
+	size: 70%;
+	}
+/* Class given to the auto-generated errors by the jQuery validation plugin */
+label.error {
+				color: red;
+				padding-right: 1em;
+			}
+			
+/* Class given to an input box which has been marked as being invalid */
+input.error {
+				background-color: #FFEEEE;
+			}
+div#selectors{
+	float: top
+}
+
+div#checkboxes{
+	font-size: 10pt;
+	float: left;
+	width: 21em;
+	padding: .5em;
+	margin-right: .5em;
+	height: 11em;
+    overflow: auto;
+    border: .2em solid #636363;
+    background-color: #FFF;
+}		
+div#state{
+	font-size: 10pt;
+	line-height: 1.5em;
+	float: left;
+	padding: .5em;
+	margin-right: .5em;
+	height: 11em;
+    overflow: auto;
+    border: .2em solid #636363;
+    background-color: #FFF;
+}		
+div#size{
+	font-size: 10pt;
+	line-height: 1.5em;
+	float: left;
+	padding: .5em;
+	margin-right: .5em;
+	height: 11em;
+    overflow: auto;
+    border: .2em solid #636363;
+    background-color: #FFF;
+}
+div#percent{
+	font-size: 10pt;
+	line-height: 1.5em;
+	float: left;
+	width: 10em;
+	padding: .5em;
+	margin-right: .5em;
+	height: 11em;
+    overflow: auto;
+    border: .2em solid #636363;
+    background-color: #FFF;
+   }		
+   div#renewable_index_min{
+   	width: 9em;
+   	font-size: 10pt;
+   	line-height: 1.5em;
+	float: left;
+	padding: .5em;
+	margin-right: .5em;
+	height: 11em;
+    overflow: auto;
+    border: .2em solid #636363;
+    background-color: #FFF;
+   }
+  div#renewable_type{
+   	font-size: 10pt;
+   	line-height: 1.5em;
+	float: left;
+	width: 9em;
+	padding: .5em;
+	margin-right: .5em;
+	height: 11em;
+    overflow: auto;
+    border: .2em solid #636363;
+    background-color: #FFF;
+   }
+   
+div#resultsContainer{
+	padding: .5em;
+	margin-right: .5em;
+	margin-top: 1em;
+}					
+select multiple {
+	size: 5;		
+}
+table
+{
+border-collapse:collapse;
+}
+table,th, td
+{
+border: 1px solid black;
+padding: .3em;
+background-color: #E1FCFC;
+font-size: 10pt;
+
+}	
+#searchButton{
+	margin-top: 1em;
+	margin-left: 1.5em;
+	padding: .5em;
+}
+
+button {
+	padding: .5em;
+}
+
+.form-section {
+	padding: 1em;
+}
